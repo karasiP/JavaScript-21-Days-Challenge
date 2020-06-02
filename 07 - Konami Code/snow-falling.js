@@ -31,7 +31,7 @@ function createSnowBallDrawer(canvasContext) {
   return snowBall => {
     canvasContext.beginPath();
     canvasContext.arc(snowBall.x, snowBall.y, snowBall.radius, 0, Math.PI * 2);
-    canvasContext.fillStyle = `rgba(255, 255, 255, ${snowBall.opacity})`;
+    canvasContext.fillStyle = `rgba(222, 10, 255, ${snowBall.opacity})`;
     canvasContext.fill();
   };
 }
